@@ -8,6 +8,7 @@ const generateEl = document.getElementById('generate');
 const clipboardEl = document.getElementById('clipboard');
 const restartEl = document.getElementById('restart');
 
+//Copy to clipboard
 clipboardEl.addEventListener('click', function() {
 	const textarea = document.createElement('textarea');
 	const password = resultEl.innerText;
@@ -23,7 +24,7 @@ clipboardEl.addEventListener('click', function() {
 	textarea.remove();
 	alert('Password copied to clipboard');
 });
-
+//Refresh option
 restartEl.addEventListener('click', function() {
 	document.location.href = "index.html";
 });
