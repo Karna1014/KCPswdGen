@@ -47,7 +47,7 @@ For companies that handle large amounts of sensitive data, weak passwords can po
 
 Link to site
 
-https//:
+https://karna1014.github.io/KCPswdGen/
 
 
 
