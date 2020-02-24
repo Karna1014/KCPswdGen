@@ -16,36 +16,50 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 }
+
 .btn {
 	 background-color: rgb(97, 226, 226);
 }
 
 #neg {
 	float: right;
-}
-h1 {
-	text-align: center;
+	width: 40px;
+	height: 25px;
 }
 
+#pos {
+	background-color: rgb(97, 226, 226);
+	width: 40px;
+	height: 25px;
+}
 
 p {
 	margin: 5px 0;
 }
 
-h2 {
+h1 {
 	margin: 10px 0 20px;
 	text-align: center;
 }
 
 input[type=checkbox] {
 	margin-right: 0;
+	width: 20px;
+	height: 20px;
 }
 
+label {
+	font-size: 20px;
+}
+
+input#length { 
+	height: 30px;
+}
 .container {
 	background-color: #4e1d01;
 	box-shadow: 0px 2px 10px #64090981;
 	padding: 20px;
-	width: 500px;
+	width: 750px; 
 	max-width: 100%;
 }
 
@@ -60,9 +74,10 @@ input[type=checkbox] {
     font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 1px;
 	padding: 12px 10px;
-	min-height: 50px;
+	min-height: 60px;
 	max-height: auto;
 	width: 100%;
+	margin-bottom: 5px;
 }
 
 .result-container #result {
